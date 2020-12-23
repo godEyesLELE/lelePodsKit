@@ -1,0 +1,27 @@
+{
+  "name": "lelePodsKit",
+  "version": "0.1.0",
+  "summary": "测试私有库",
+  "description": "TODO: Add long 测试私有库",
+  "homepage": "https://github.com/godEyesLELE/lelePodsKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tianle": "603334504@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/godEyesLELE/lelePodsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "lelePodsKit/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+      "~> 3.4.1"
+    ]
+  }
+}

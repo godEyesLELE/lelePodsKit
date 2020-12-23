@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'lelePodsKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of lelePodsKit.'
+  s.summary          = '测试私有库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long 测试私有库
                        DESC
 
-  s.homepage         = 'https://github.com/603334504@qq.com/lelePodsKit'
+  s.homepage         = 'https://github.com/godEyesLELE/lelePodsKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '603334504@qq.com' => 'huangtianle@mbcloud.com' }
-  s.source           = { :git => 'https://github.com/603334504@qq.com/lelePodsKit.git', :tag => s.version.to_s }
+  s.author           = { 'tianle' => '603334504@qq.com' }
+  s.source           = { :git => 'https://github.com/godEyesLELE/lelePodsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh', '~> 3.4.1'
 end

@@ -1,0 +1,24 @@
+PODS:
+  - lelePodsKit (0.1.0):
+    - MJRefresh (~> 3.4.1)
+  - MJRefresh (3.4.3)
+
+DEPENDENCIES:
+  - lelePodsKit (from `../`)
+  - MJRefresh (~> 3.4.1)
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  lelePodsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lelePodsKit: 40155e4adbbdb10de9b2743440de12e2bd7422d0
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+
+PODFILE CHECKSUM: c881fd3e14ef8b06376be9305e68e1ef9975475a
+
+COCOAPODS: 1.10.0

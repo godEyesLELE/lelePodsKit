@@ -1,0 +1,6 @@
+framework module lelePodsKit {
+  umbrella header "lelePodsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
