@@ -20,8 +20,8 @@
   },
   "source_files": "lelePodsKit/Classes/**/*",
   "dependencies": {
-    "MJRefresh": [
-      "~> 3.4.1"
+    "SnapKit": [
+      "~> 4.0.1"
     ]
   }
 }

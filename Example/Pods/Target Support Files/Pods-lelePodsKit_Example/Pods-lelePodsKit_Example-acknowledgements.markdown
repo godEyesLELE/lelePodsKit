@@ -1,9 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MJRefresh
+## SnapKit
 
-Copyright (c) 2013-2015 MJRefresh (https://github.com/CoderMJLee/MJRefresh)
+Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

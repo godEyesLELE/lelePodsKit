@@ -1,24 +1,24 @@
 PODS:
   - lelePodsKit (0.1.0):
-    - MJRefresh (~> 3.4.1)
-  - MJRefresh (3.4.3)
+    - SnapKit (~> 4.0.1)
+  - SnapKit (4.0.1)
 
 DEPENDENCIES:
   - lelePodsKit (from `../`)
-  - MJRefresh (~> 3.4.1)
+  - SnapKit (= 4.0.1)
 
 SPEC REPOS:
   trunk:
-    - MJRefresh
+    - SnapKit
 
 EXTERNAL SOURCES:
   lelePodsKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  lelePodsKit: 40155e4adbbdb10de9b2743440de12e2bd7422d0
-  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  lelePodsKit: 544ad2f31f0bcb89a85f8170d801762369d66092
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: c881fd3e14ef8b06376be9305e68e1ef9975475a
+PODFILE CHECKSUM: e33cdf9ecf079339f221cc9d0611833dff9f6681
 
 COCOAPODS: 1.10.0

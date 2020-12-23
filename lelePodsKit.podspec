@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lelePodsKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '测试私有库'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ TODO: Add long 测试私有库
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'MJRefresh', '~> 3.4.1'
+  s.dependency 'SnapKit', '~> 4.0.1'
 end
