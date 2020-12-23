@@ -7,6 +7,9 @@
 //
 
 import Foundation
+
+
+
 import MJRefresh
 //extension MJRefreshStateHeader{
 //    open override func placeSubviews() {
@@ -18,7 +21,7 @@ import MJRefresh
 open class baseHeader: MJRefreshNormalHeader {
     open override func prepare() {
         super.prepare()
-        self.lastUpdatedTimeLabel?.isHidden = true
+//        self.lastUpdatedTimeLabel?.isHidden = true
         self.arrowView?.image = nil
         self.stateLabel?.font = UIFont.systemFont(ofSize: 12)
     }
