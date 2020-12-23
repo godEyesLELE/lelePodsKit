@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'lelePodsKit_Example' do
+  pod 'lelePodsKit', :path => '../'
+
+  target 'lelePodsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
