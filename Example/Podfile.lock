@@ -1,7 +1,9 @@
 PODS:
   - Alamofire (4.9.1)
   - HandyJSON (5.0.1)
-  - Kingfisher (4.10.1)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
   - lelePodsKit (0.1.6):
     - HandyJSON (~> 5.0.1)
     - Kingfisher
@@ -40,7 +42,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
-  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   lelePodsKit: 266b2039d485fcd28c246dfa3869aaabd449a1f6
   RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
   RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
