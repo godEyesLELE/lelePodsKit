@@ -6,6 +6,10 @@ target 'lelePodsKit_Example' do
   pod 'lelePodsKit', :path => '../'
 #  pod 'MJRefresh', '~> 3.4.1'
 pod 'SnapKit', '4.0.1'
+pod 'RxSwift', '5.1.0'
+pod 'RxAlamofire', '5.1.0'
+pod 'HandyJSON', '5.0.1'
+pod 'Kingfisher', '4.3.1'
   target 'lelePodsKit_Tests' do
     inherit! :search_paths
 

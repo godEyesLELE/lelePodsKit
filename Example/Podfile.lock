@@ -1,14 +1,36 @@
 PODS:
-  - lelePodsKit (0.1.0):
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.1)
+  - Kingfisher (4.3.1)
+  - lelePodsKit (0.1.2):
+    - HandyJSON (~> 5.0.1)
+    - Kingfisher (~> 4.3.1)
+    - RxAlamofire (~> 5.1.0)
+    - RxSwift (~> 5.1.0)
     - SnapKit (~> 4.0.1)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxSwift (5.1.0)
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
+  - HandyJSON (= 5.0.1)
+  - Kingfisher (= 4.3.1)
   - lelePodsKit (from `../`)
+  - RxAlamofire (= 5.1.0)
+  - RxSwift (= 5.1.0)
   - SnapKit (= 4.0.1)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - RxAlamofire
+    - RxSwift
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -16,9 +38,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  lelePodsKit: 544ad2f31f0bcb89a85f8170d801762369d66092
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: 75541c4b62f02e1fde6f9772303de3d9ebe8f5b3
+  lelePodsKit: 309733fe2f863fb3832a80167ad0b27862410ee7
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: e33cdf9ecf079339f221cc9d0611833dff9f6681
+PODFILE CHECKSUM: 6dfda1fac3e2eb1f243684d24d5569dd659b44b5
 
 COCOAPODS: 1.10.0

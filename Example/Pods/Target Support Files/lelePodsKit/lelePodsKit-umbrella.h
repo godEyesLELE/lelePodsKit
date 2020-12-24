@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NextGrowingTextView.h"
+#import "Parchment.h"
 
 FOUNDATION_EXPORT double lelePodsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char lelePodsKitVersionString[];
