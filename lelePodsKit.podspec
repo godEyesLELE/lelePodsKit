@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lelePodsKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '测试私有库'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,21 @@ TODO: Add long 测试私有库
 
   s.source_files = 'lelePodsKit/Classes/**/*'
   
-  s.swift_version= "5"
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
-  s.resource_bundles = {
-     'lelePodsKit' => ['lelePodsKit/Assets/*.png']
-   }
+  s.swift_versions = {
+  "swift_versions": [
+    "4.0",
+    "4.2",
+    "5.0"
+  ],
+  }
+  
+  s.swift_version= "5.0"
+  
+   # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
+   
+    #s.resource_bundles = {
+    #   'lelePodsKit' => ['lelePodsKit/Assets/*.png']
+    # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -45,6 +55,6 @@ TODO: Add long 测试私有库
     s.dependency 'RxSwift', '~> 5.1.0'
     s.dependency 'RxAlamofire', '~> 5.1.0'
     s.dependency 'HandyJSON', '~> 5.0.1'
-    s.dependency 'Kingfisher', '~> 4.3.1'
+    s.dependency 'Kingfisher'
 
 end
