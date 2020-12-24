@@ -1,6 +1,6 @@
 {
   "name": "lelePodsKit",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "测试私有库",
   "description": "TODO: Add long 测试私有库",
   "homepage": "https://github.com/godEyesLELE/lelePodsKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/godEyesLELE/lelePodsKit.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "10.0"
