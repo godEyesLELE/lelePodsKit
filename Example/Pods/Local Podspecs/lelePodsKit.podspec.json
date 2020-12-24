@@ -1,8 +1,8 @@
 {
   "name": "lelePodsKit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "测试私有库",
-  "description": "TODO: Add long 测试私有库",
+  "description": "'Add long 测试私有库'",
   "homepage": "https://github.com/godEyesLELE/lelePodsKit.git",
   "license": {
     "type": "MIT",
@@ -13,15 +13,15 @@
   },
   "source": {
     "git": "https://github.com/godEyesLELE/lelePodsKit.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "lelePodsKit/Classes/**/*",
   "swift_versions": "5.0",
+  "source_files": "lelePodsKit/Classes/**/*",
   "resource_bundles": {
-    "lelePodsKitpo": [
+    "lelePodsKit": [
       "lelePodsKit/Assets/**/*.xcassets"
     ]
   },
