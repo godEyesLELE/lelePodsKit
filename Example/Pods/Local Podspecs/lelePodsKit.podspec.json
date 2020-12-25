@@ -22,7 +22,7 @@
   "swift_versions": "5.0",
   "resource_bundles": {
     "lelePodsKit": [
-      "lelePodsKit/Assets/*.png"
+      "lelePodsKit/**/*.png"
     ]
   },
   "dependencies": {
