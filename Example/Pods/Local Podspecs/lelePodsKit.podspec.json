@@ -1,6 +1,6 @@
 {
   "name": "lelePodsKit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "测试私有库",
   "description": "'测试私有库'",
   "homepage": "https://github.com/godEyesLELE/lelePodsKit.git",
@@ -13,18 +13,16 @@
   },
   "source": {
     "git": "https://github.com/godEyesLELE/lelePodsKit.git",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "lelePodsKit/Classes/**/*",
   "swift_versions": "5.0",
-  "resource_bundles": {
-    "lelePodsKit": [
-      "lelePodsKit/**/*.png"
-    ]
-  },
+  "resources": [
+    "lelePodsKit/**/*.png"
+  ],
   "dependencies": {
     "SnapKit": [
       "~> 4.0.1"
